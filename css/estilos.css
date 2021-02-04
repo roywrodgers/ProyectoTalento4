@@ -16,3 +16,144 @@ nav {
     height: 160px;
     background-color: cadetblue;
 }
+
+nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px;
+
+}
+
+nav ul li:hover{
+
+    background-color:aquamarine;
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+a:visited {
+
+    color:brown;
+}
+a:active{
+
+    color:cornsilk;
+}
+
+.img-logo{
+    width: 120px;
+    padding-top: 20x;
+    padding-left: 5%;
+}
+nav ul{
+    padding-top: 90px;
+    float: right;
+    margin: 0;
+} 
+
+.banner{
+
+        max-width: 100%;
+        
+}
+/*estilos de la sección featured*/
+
+.featured{
+
+    background-color: cornflowerblue;
+}
+.fp-video{
+    width: 55%;
+    padding: 2em;
+}
+
+/*estilo para artículo*/
+
+.ft-art{
+
+    width: 30%;
+    padding: 2em;
+    vertical-align: top;
+    
+}
+
+/*estilo general para todos los articulos*/
+
+article{
+
+    padding: 30px;
+    background-color: rgb(27, 173, 221, 0.99);
+    margin: 20px 0;
+}
+
+article h1{
+
+    border-bottom: solid thin black;
+    text-align: center;
+}
+
+.fp-video, .ft-art{
+
+    display: inline-block;
+}
+
+/*estilo para boton*/
+
+.boton-container{
+
+    text-align: center;
+    background-color: lightslategray;
+    margin: 0 auto;
+}
+
+.boton-container a{
+    text-decoration: none;
+    color:blueviolet ;
+}
+
+.boton{
+    padding: 15px;
+}
+
+.boton-container:hover{
+    background-color: lightyellow;
+}
+
+.art-image img{
+    max-width: 100%;
+    margin: 0;
+}
+
+.art-cont{
+    width: 750px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+h2{
+    margin: 0;
+    border-bottom: solid thin black;
+    text-align: center;
+}
+
+footer {
+
+    background-color: cadetblue;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
