@@ -8,20 +8,20 @@
 
 
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mq.css">
 
 
 </head>
 
 <body>
 
-
-</body>
+    <div class="contenedor">
 
     <header>
 
         <nav>
 
-            <a href="https://tecnofacto.co/"> <img src="imagenes/logo.png" alt="logo" width="100px"> </a>
+            <a href="https://tecnofacto.co/"> <img class="img-logo" src="imagenes/logo.png" alt="logo"> </a>
             <!--lista no ordenada ul-->
             <ul>
 
@@ -29,16 +29,109 @@
                 <li> <a href="audio.html"> AUDIO </a> </li>
                 <li> <a href=""> VIDEO </a> </li>
                 <li> <a href=""> ALMACENAMIENTO </a> </li>
+                <li> <a href="contacto.html"> CONTACTO </a> </li>
 
             </ul>
 
         </nav>
 
-        <img src="imagenes/banner.jpg" alt="banner" >
+        <img class="banner" src="imagenes/banner.jpg" alt="banner">
 
 
     </header>
 
+    <!--primera sección con video y artículo 1-->
+
+    <section class="featured">
+        <!--VIDEO-->
+
+        <iframe class="fp-video" max-width="560" height="315" src="https://www.youtube.com/embed/3dBl1iwqqbw"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+        <!--ARTICULO 1-->
+        <article class="ft-art">
+
+            <h1>Lo más reciente en tecnología</h1>
+
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nihil dolore magnam aliquam laborum
+            repellendus minus saepe, dolorem eos vel ipsa, vitae quaerat error nam? Ad doloremque eaque dolorum atque
+            fuga beatae blanditiis at aspernatur!
+             </p>
+
+            <div class="boton-container">
+
+                <a href="#">
+                <div class="boton">Click aquí</div>
+                </a>
+
+
+            </div>
+
+
+
+        </article>
+
+    </section>
+
+    <!-- Sección 2 - articulo 2-->
+
+    <section>
+
+        <article>
+
+            <figure class="art-image">
+
+                <img src="imagenes/articulo2.jpg" alt="imagen2">
+
+            </figure>
+
+            <div class="art-cont">
+
+                <h2>GADGETS PARA 2021</h2>
+                <p> ipsum dolor sit amet, consectetur adipisicing elit. Odit facilis iusto, dignissimos aspernatur
+                voluptates ipsum doloribus harum excepturi quos qui provident placeat, pariatur autem! Necessitatibus
+                quasi
+                dolorum debitis iure autem in repudiandae quisquam expedita nisi?
+                </p>
+            </div>
+
+            </article>
+
+                <!-- Artículo 3-->
+                <article>
+
+                <figure class="art-image">
+                    <img src="imagenes/articulo3.jpg" alt="imagen3">
+                    </figure>
+
+                <div class="art-cont">
+
+                    <h2>MARKETING EN REDES SOCIALES</h2>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias facere officiis fuga minima,
+                    consequuntur temporibus praesentium voluptate cum sunt in, soluta ut quo, consectetur aliquam. Nemo
+                    quisquam cum libero vero architecto animi dolore mollitia dolorum!
+                </P>
+                </div>
+
+
+
+        </article>
+
+    </section>
+
+    <footer>
+        <address> © COPYRIGHT 2021 FACTORIA WEB TODOS LOS DERECHOS RESERVADOS  </address>
+        <div>
+
+        <a href="#">Facebook</a> |
+        <a href="#">Twitter</a> |
+        <a href="#">Instagram</a>
+        </div>
+
+    </footer>
+</div>
 </body>
 
 </html>
